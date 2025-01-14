@@ -1,30 +1,32 @@
-.logo {
-  max-width: 400px;
-}
-a {
-  color: #f3952f;
-}
-a:hover {
-  text-decoration: none;
-}
-/* extremely basic formatting */
 html {
   box-sizing: border-box;
 }
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
+/* turn off margin/padding, set font and size for the page */
 body {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: #111;
-  color: #fff;
+  font-size: 1.5rem;
 }
-img {
-  max-width: 100%;
+/* turn off bullets, push the box down the page, set a border plus width and height for demonstration purposes. */
+ul {
+  padding: 0;
+  margin: 5rem auto;
+  list-style-type: none;
+  border: 2px solid #26547c;
+  background-color: #26547c33;
+  width: 900px;
+  height: 500px;
+}
+/* set a border and background color to see each LI. Min-width and min-height are not necessarily a good idea in flexbox, but they are needed for the demo to better see the properties work. */
+li {
+  border: 2px solid #ef476f;
+  background-color: #ef476f33;
+  min-width: 100px;
+  height: 100px;
 }
