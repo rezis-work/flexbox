@@ -1,0 +1,30 @@
+.logo {
+  max-width: 400px;
+}
+a {
+  color: #f3952f;
+}
+a:hover {
+  text-decoration: none;
+}
+/* extremely basic formatting */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+}
+img {
+  max-width: 100%;
+}
